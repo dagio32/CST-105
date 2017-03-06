@@ -138,8 +138,9 @@ class DefensivePlayer
 	SeasonNumber SeasonNum;
 	
 	//Tackling stats
+	//TotalTackles = SoloTackles + TackleAssists
 	int TotalTackles;
-	int Tackles;
+	int SoloTackles;
 	int TackleAssists;
 	//Sacks will be a double to account for half sacks
 	double Sacks;
@@ -162,7 +163,7 @@ class DefensivePlayer
 	public DefensivePlayer()
 	{
 		TotalTackles = 0;
-		Tackles = 0;
+		SoloTackles = 0;
 		TackleAssists = 0;
 		Sacks = 0;
 		PassesDefended = 0;
