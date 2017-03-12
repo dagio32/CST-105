@@ -3,7 +3,7 @@ Dennis Attawia
 CST-105
 March 12, 2017
 
-Milestone #3 for the project.  This folder includes the PlayerManager.java class and an updated version of NFLPlayer.java.
+Milestone #3 for the project.  This folder includes the PlayerManager.java class, the Main.java class, and an updated version of NFLPlayer.java.
 
 PlayerManager.java contains a method called CreatePlayers() which creates an array of NFLPlayer[] and stores 50 custom players in the array with each player's information and statistics.
 
