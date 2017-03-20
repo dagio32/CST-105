@@ -8,13 +8,25 @@ public class PlayerManager
 	 */
 	
 	// Main array that contains all the players in the draft
-	public NFLPlayer[] PlayersList = new NFLPlayer[50];
+	private NFLPlayer[] PlayersList = new NFLPlayer[50];
 	
 	// Default constructor
 	// Creates 50 players
 	public PlayerManager()
 	{
 		CreatePlayers();
+	}
+	
+	// Retrieve info for player at given index
+	public NFLPlayer getPlayer(int index)
+	{
+		return PlayersList[index];
+	}
+	
+	// Total number of players in the draft
+	public int getNumberOfPlayers()
+	{
+		return PlayersList.length;
 	}
 	
 	private NFLPlayer[] CreatePlayers()
