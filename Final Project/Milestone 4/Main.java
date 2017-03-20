@@ -12,7 +12,7 @@ public class Main
 		// Testing a player's info and statistics
 		// Display player at index 0
 		// Player identity
-		System.out.println("\r\n" + NFLPlayersArray[1].getFirstName() + " " + NFLPlayersArray[1].getLastName());
+		System.out.println("\r\n" + NFLPlayersArray[1].getFullName());
 		System.out.println("Position: " + NFLPlayersArray[1].getPosition());
 		System.out.println("College: " + NFLPlayersArray[1].getCollege());
 		System.out.println("Height: " + NFLPlayersArray[1].getHeight());

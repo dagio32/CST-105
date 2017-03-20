@@ -159,6 +159,13 @@ public class NFLPlayer
 		return LastName;
 	}
 	
+	public String getFullName()
+	{
+		String fullName = FirstName + " " + LastName; 
+		return fullName;
+	}
+	
+	
 	public String getCollege()
 	{
 		return College;
