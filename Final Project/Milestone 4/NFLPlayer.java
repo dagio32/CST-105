@@ -161,10 +161,8 @@ public class NFLPlayer
 	
 	public String getFullName()
 	{
-		String fullName = FirstName + " " + LastName; 
-		return fullName;
+		return FirstName + " " + LastName;
 	}
-	
 	
 	public String getCollege()
 	{
